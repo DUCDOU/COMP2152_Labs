@@ -35,4 +35,4 @@ for numbers, target in test_cases:
     result = two_sum_optimized(numbers, target)
     print("Numbers: " + str(numbers) + ", Target: " + str(target))
     print("Result: " + str(result))
-    print()
+    print() 
