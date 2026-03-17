@@ -50,7 +50,6 @@ class TestCelsius(unittest.TestCase):
     def test_negative(self):
         self.assertEqual(celsius_to_fahrenheit(-40), -40.0)
 
-
 # TODO: Complete TestValidIP
 #   test_valid         → is_valid_ip("192.168.1.1") is True
 #   test_invalid_octet → is_valid_ip("256.1.1.1")   is False
@@ -68,7 +67,6 @@ class TestValidIP(unittest.TestCase):
 
     def test_empty(self):
         self.assertFalse(is_valid_ip(""))
-
 
 # TODO: Complete TestFizzBuzz
 #   test_fizz     → fizzbuzz(3)  == "Fizz"

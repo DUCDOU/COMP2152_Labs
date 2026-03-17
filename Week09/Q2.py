@@ -40,7 +40,7 @@ def run_threaded(tasks, lock):
         t.start()
 
     for t in threads:
-        t.join() 
+        t.join()
 
 
 # --- Provided below — error handling example from Week 06 ---
